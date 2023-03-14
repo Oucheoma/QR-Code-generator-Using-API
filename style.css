@@ -70,4 +70,9 @@ header p{
     pointer-events: auto;
     transition: opacity 0.5s 0.3s ease;
 }
-
+@media screen and (max-width: 600px){
+    .wrapper{
+        max-width: 400px;
+    }
+ 
+}
